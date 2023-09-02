@@ -17,7 +17,7 @@ public class chromeTest1 {
 	{
 	
 		DesiredCapabilities dc=new DesiredCapabilities();
-		dc.setCapability("browserName", "chrome");	
+		dc.setCapability("browserName", "firefox");	
 		
 		
 		URL url=new URI("http://localhost:4444/wd/hub").toURL();
